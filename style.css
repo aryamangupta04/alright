@@ -1,0 +1,106 @@
+
+*{
+    list-style:none;
+}
+h1{
+    animation:alright 10s linear 0s infinite;
+    color:rgb(76, 36, 122);
+    text-shadow:5px 3px blue;
+    text-align:center;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-size:50px;
+    position:relative;
+    bottom:35px;
+    padding:30px;
+    background-color:rgb(142, 184, 212)
+}
+@keyframes ok{
+    from {background-color:rgb(98, 89, 173);}
+    to {background-color:rgb(241, 139, 98)};
+}
+@keyframes alright{
+    0%{
+        background-color:crimson;
+    }
+    50%{
+        background-color:lightblue;
+    }
+    100%{
+        background-color:blue;
+    }
+}
+}
+header{
+    background-color:rgb(142, 184, 212);
+    padding-bottom:60px;
+}
+header a{
+    color:color:rgb(76, 36, 122);
+    text-align:center;
+    text-decoration:none;
+}
+img{
+    height: 150px;
+    display:inline-block;
+    position:relative;
+    bottom:250px;
+}
+nav {
+    display:inline-block;
+    position:relative;
+    bottom:35px;
+    right:10px;
+    float:right;
+    
+    padding-left:200px;
+    padding-bottom:60px;
+    z-index:5;
+    
+}
+nav ul li{
+    display:inline-block;
+    margin-left:30px;
+    font-size:30px;
+    color:rgb(76, 36, 122);
+}
+h2{
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+.about{
+    margin-top:-55px;
+    position:relative;
+    bottom:120px;
+    width:900px;
+    background-color:rgb(98, 89, 173);
+}
+.section1{
+    padding-left:10px;
+    font-weight:bold;
+    margin-right:150px;
+    position:relative;
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+}
+.side{
+    float:right;
+    height:500px;
+    position:relative;
+    bottom:350px;
+    width:600px;
+    
+}
+.tweets{
+    position:relative;
+    bottom:100px;
+    background:linear-gradient(to bottom blue, purple);
+}
+.about:hover{
+    width:600px;
+    background-color:blue;
+}
+.header:hover{
+    h1{;
+        color:rgb(142, 184, 212);
+    }
+}

@@ -1,0 +1,29 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration:none;
+    list-style:none;
+    box-sizing:border-box;
+}
+body{
+    font-family:montserrat;
+}
+h1 {
+    text-align:center;
+    font-size:50px;
+}
+nav{
+    background: steelblue;
+    height:80px;
+    width:100%;
+
+}
+nav ul{
+    float:right;
+    margin-right:20px;
+}
+nav ul li{
+    display:inline-block;  
+    margin:0 5px;
+    position:static;
+}
